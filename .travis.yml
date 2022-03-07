@@ -6,6 +6,7 @@ python:
 branches:
   only:
     - main
+    - travis
     - /^v\d+\.\d+\.\d+$/
 
 before_install:
